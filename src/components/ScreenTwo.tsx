@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
         height: "100%",
         flexDirection: "column",
         justifyContent: "center",
-        backgroundColor: "yellow",
+        backgroundColor: "purple",
     },
     text: {
         textAlignment: "center",

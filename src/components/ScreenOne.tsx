@@ -19,13 +19,13 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
             </label>
             <button
                 style={styles.button}
-                onTap={() => Dialogs.alert("Tapped!")}
+                onTap={() => Dialogs.alert("apaan anjay")}
             >
-                Tap me for an alert
+                coba klik
             </button>
             <button
                 style={styles.button}
-                onTap={() => navigation.navigate("Two", { message: "Hello, world!" })}
+                onTap={() => navigation.navigate("two", { message: "halo cok" })}
             >
                 Go to next screen
             </button>
